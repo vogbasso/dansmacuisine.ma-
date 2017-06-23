@@ -22,10 +22,10 @@
 define('DB_NAME', 'dansmacuisine_live');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'root');
+define('DB_USER', 'mobidealz');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'f2ttZ42a');
+define('DB_PASSWORD', 'mobideal');
 
 /** Adresse de l’hébergement MySQL. */
 define('DB_HOST', 'localhost');
