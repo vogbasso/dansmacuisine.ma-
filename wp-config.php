@@ -22,7 +22,7 @@
 define('DB_NAME', 'dansmacuisine_live');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'mobidealz');
+define('DB_USER', 'root');
 
 /** Mot de passe de la base de données MySQL. */
 define('DB_PASSWORD', 'mobideal');
@@ -31,7 +31,7 @@ define('DB_PASSWORD', 'mobideal');
 define('DB_HOST', 'localhost');
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** Type de collation de la base de données.
   * N’y touchez que si vous savez ce que vous faites.
@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'g2{s>GRER`b,$b:CoKv[zRbHeN$)tpZ:TZ&rCCge/[R_olme2a+3?i)O&GgOXC}Z');
+define('SECURE_AUTH_KEY',  'mg.HQp$B!CtUYbM}m )mbk$faI@#@9B|=$X;,}!5RF[}Z4:Nu-hn9x{JtCJ5/!>{');
+define('LOGGED_IN_KEY',    'fc+eV4 NZSsBoFf4>0Bnp>.R=P;(GD&,DkWOx}Wt2aME3Q NS!8h<)A&#lp+!A6t');
+define('NONCE_KEY',        'GfM$TYS==X.pC$RWhbI.]K6*iW`Ig(v8tsEp=~@nnAtz! y%>`}m+c <Hl)D_d4)');
+define('AUTH_SALT',        'i^E%.~(`=e{GWcCrP-YC^@oR.i#4u91fZ7<t(GJF}=8E,:~sM|NRRKj~o<qnw-9K');
+define('SECURE_AUTH_SALT', '#p<0AoGY#E6xauGMtODK0 3[2rKUH29x;i]L+&:aZ=P{b0-!H8A)we*b_f#;)!kV');
+define('LOGGED_IN_SALT',   'tvjHCSl[oT&2(L`4|[+.<!`+bV,v&ymh$e9;AZ)#>CiB #bYe:J6j3p}at&&bVYM');
+define('NONCE_SALT',       '$W4R-;;;=l9 j<D8o5/kf~K?2%zVz|}]oThUe3QvqYIrWLa;ykiLG(!${X%n#mRO');
 /**#@-*/
 
 /**
