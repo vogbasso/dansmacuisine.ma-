@@ -58,3 +58,7 @@ if ( ! defined( 'DS_LIVE_COMPOSER_VER' ) ) {
 	<?php }
 	add_action( 'admin_notices', 'lct_notification' );
 }
+
+
+/*******AJOUT ICI DE MON PROPRE FICHIER DE CONFIGURATION *****/
+require get_parent_theme_file_path( 'myfunctions.php' );
